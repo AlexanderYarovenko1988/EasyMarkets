@@ -73,7 +73,7 @@ public class RegistrationPage {
         return this;
     }
 
-    public RegistrationPage shouldHaveCreatePassword() {
+    public RegistrationPage shouldHaveCreateUser() {
         $("[data-qa_id='repeated_request']").shouldHave(text("Send the registration request again"));
 
         return this;

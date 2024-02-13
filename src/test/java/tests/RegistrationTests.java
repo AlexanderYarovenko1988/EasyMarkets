@@ -27,7 +27,7 @@ public class RegistrationTests extends TestBase {
                 .setFirstPassword(password)
                 .setLastPassword(password)
                 .clickButtonCreateNewAccount()
-                .shouldHaveCreatePassword();
+                .shouldHaveCreateUser();
 
 
     }
